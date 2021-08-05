@@ -3,7 +3,6 @@ if we guess right or wrong'''
 import time
 import random
 randNumber = random.randint(1,100)
-print(randNumber)
 guesses = 0
 while True:
     userGuess = input("Enter your Guess from (1-100):")
